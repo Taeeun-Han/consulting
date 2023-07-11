@@ -31,14 +31,20 @@
         integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    
+    <!-- fullPage -->
+    <script type="text/javascript" src="js/fullPage.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/fullPage.css" />
+
+    <script src="js/scroll.js"></script>
+
     <!-- SWIPER -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
     <script src="js/anime.js"></script>
-    <script defer src="js/scroll.js"></script>
     <script defer src="js/apply.js"></script>
     <script defer src="js/txt.js"></script>
 </head>
@@ -48,9 +54,9 @@
     <main id="scrollWrap">
         <!-- <div class="bluebox"></div> -->
 
-        <div class="inner">
+        <div id="fullpage" class="inner">
             <!-- first section -->
-            <section class="on section01">
+            <section class="section section01 on">
 
                 <div class="inner">
                     <div id="container">
@@ -155,7 +161,7 @@
             </section>
 
             <!-- second section -->
-            <!-- <section>
+            <section class="section">
                 <div class="inner">
                     <div class="txt_box">
                         <p>개발은 어렵다?</p>
@@ -167,10 +173,10 @@
                         <p>EveryOne</p>
                     </div>
                 </div>
-            </section> -->
+            </section>
 
             <!-- third section -->
-            <!-- <section>
+            <section class="section">
                 <h1>Lorem, ipsum dolor.</h1>
                 <div class="wrap">
                     <article></article>
@@ -178,14 +184,14 @@
                     <article></article>
                     <article></article>
                 </div>
-            </section> -->
+            </section>
 
             <!-- fourth section -->
-            <!-- <section>
+            <section class="section">
                 <h1>SCROLL</h1>
                 <h2>HORIZONTAL</h2>
                 <article class="rot"></article>
-            </section> -->
+            </section>
         </div>
 
     </main>
