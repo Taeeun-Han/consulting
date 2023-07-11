@@ -81,70 +81,75 @@
                         <span>Scroll</span>
                     </div>
 
-                    <div class="apply">
-                        <div class="apply__button">
-                            <p>무료 컨설팅 신청</p>
-                            <span class="material-symbols-outlined">change_history</span>
+
+                    <div class="apply__wrap">
+
+                        <div class="apply">
+                            <div class="apply__button">
+                                <p>무료 컨설팅 신청</p>
+                                <span class="material-symbols-outlined">change_history</span>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="apply__content">
-                        <div class="inputboxs">
-                            <label for="name">
-                                <p>신청자명 *</p>
-                                <input type="textbox" class="input__name" name="name" value="이름을 입력해주세요" id="name">
-                            </label>
-
-                            <label for="tel" class="tel">
-                                <p>연락처 *</p>
-                                <select name="tel0" id="tel0">
-                                    <option value="010">010</option>
-                                </select>
-                                <input type="textbox" name="tel1" id="tel1">
-                                <input type="textbox" name="tel2" id="tel2">
-                            </label>
-
-                            <label for="email">
-                                <p>E-Mail *</p>
-                                <input type="text" class="input__email" name="email" id="email">
-                                @
-                                <select name="email" id="email">
-                                    <option value="">선택하세요</option>
-                                    <option value="naver">naver.com</option>
-                                    <option value="daum">hanmail.net</option>
-                                    <option value="nate">nate.com</option>
-                                </select>
-                            </label>
-
-                            <div class="major">
-                                <p>전공여부*</p>
-                                <label for="yes">
-                                    <input type="radio" class="input__major" name="yes" id="yes" value="yes">전공자
+                        <div class="apply__content">
+                            <div class="inputboxs">
+                                <label for="name">
+                                    <p>신청자명 *</p>
+                                    <input type="textbox" class="input__name" name="name" value="이름을 입력해주세요" id="name">
                                 </label>
 
-                                <label for="no" class="no">
-                                    <input type="radio" class="input__major" name="no" id="no" value="no">비전공자
+                                <label for="tel" class="tel">
+                                    <p>연락처 *</p>
+                                    <select name="tel0" id="tel0">
+                                        <option value="010">010</option>
+                                    </select>
+                                    <input type="textbox" name="tel1" id="tel1">
+                                    <input type="textbox" name="tel2" id="tel2">
+                                </label>
+
+                                <label for="email">
+                                    <p>E-Mail *</p>
+                                    <input type="text" class="input__email" name="email" id="email">
+                                    @
+                                    <select name="email" id="email">
+                                        <option value="">선택하세요</option>
+                                        <option value="naver">naver.com</option>
+                                        <option value="daum">hanmail.net</option>
+                                        <option value="nate">nate.com</option>
+                                    </select>
+                                </label>
+
+                                <div class="major">
+                                    <p>전공여부*</p>
+                                    <label for="yes">
+                                        <input type="radio" class="input__major" name="yes" id="yes" value="yes">전공자
+                                    </label>
+
+                                    <label for="no" class="no">
+                                        <input type="radio" class="input__major" name="no" id="no" value="no">비전공자
+                                    </label>
+                                </div>
+
+
+                                <label for="purpose" class="purpose">
+                                    <p>컨설팅을 통해 배우고 싶은 것(선택)</p>
+                                    <input type="textbox" name="purpose" value="컨설팅을 통해 배우고 싶은 것을 입력해주세요." id="purpose">
                                 </label>
                             </div>
 
+                            <div class="confirm">
+                                <div class="checkbox">
+                                    <input type="checkbox">
+                                    <p>개인정보 처리 방침에 동의합니다.</p>
+                                </div>
 
-                            <label for="purpose" class="purpose">
-                                <p>컨설팅을 통해 배우고 싶은 것(선택)</p>
-                                <input type="textbox" name="purpose" value="컨설팅을 통해 배우고 싶은 것을 입력해주세요." id="purpose">
-                            </label>
-                        </div>
 
-                        <div class="confirm">
-                            <div class="checkbox">
-                                <input type="checkbox">
-                                <p>개인정보 처리 방침에 동의합니다.</p>
+                                <button class="confirm__button">컨설팅 접수완료</button>
                             </div>
 
-
-                            <button class="confirm__button">컨설팅 접수완료</button>
                         </div>
-
                     </div>
+
                 </div>
 
             </section>

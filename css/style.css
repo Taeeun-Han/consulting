@@ -200,14 +200,14 @@ main .inner .section01 .inner .scroll > span {
   font-size: 20px;
   margin-left: 5px;
 }
-main .inner .section01 .inner .apply {
+main .inner .section01 .inner .apply__wrap .apply {
   width: 100%;
   height: 20px;
   background-color: #32a6ff;
   position: fixed;
   bottom: 0;
 }
-main .inner .section01 .inner .apply .apply__button {
+main .inner .section01 .inner .apply__wrap .apply .apply__button {
   width: 207px;
   height: 51px;
   background-color: #32a6ff;
@@ -222,14 +222,15 @@ main .inner .section01 .inner .apply .apply__button {
   padding: 10px 12px;
   cursor: pointer;
 }
-main .inner .section01 .inner .apply .apply__button p,
-main .inner .section01 .inner .apply .apply__button span {
+main .inner .section01 .inner .apply__wrap .apply .apply__button p,
+main .inner .section01 .inner .apply__wrap .apply .apply__button span {
   background-color: transparent;
   font-size: 20px;
   font-weight: bold;
   color: #fff;
 }
-main .inner .section01 .inner .apply__content {
+main .inner .section01 .inner .apply__wrap .apply__content {
+  display: none;
   margin: 0 auto;
   width: 100%;
   height: 654px;
@@ -240,7 +241,7 @@ main .inner .section01 .inner .apply__content {
   background-color: #222;
   z-index: 3;
 }
-main .inner .section01 .inner .apply__content .inputboxs {
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs {
   width: 575px;
   height: 399px;
   margin: 0 auto;
@@ -249,10 +250,10 @@ main .inner .section01 .inner .apply__content .inputboxs {
   margin-bottom: 45px;
   position: relative;
 }
-main .inner .section01 .inner .apply__content .inputboxs p {
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs p {
   font-size: 15px;
 }
-main .inner .section01 .inner .apply__content .inputboxs .input__name {
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs .input__name {
   width: 255px;
   height: 35px;
   margin-top: 15px;
@@ -261,12 +262,12 @@ main .inner .section01 .inner .apply__content .inputboxs .input__name {
   border-radius: 5px;
   margin-bottom: 50px;
 }
-main .inner .section01 .inner .apply__content .inputboxs .tel {
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs .tel {
   position: absolute;
   right: 0;
 }
-main .inner .section01 .inner .apply__content .inputboxs .tel input,
-main .inner .section01 .inner .apply__content .inputboxs .tel select {
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs .tel input,
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs .tel select {
   width: 73px;
   height: 35px;
   margin-top: 15px;
@@ -275,7 +276,7 @@ main .inner .section01 .inner .apply__content .inputboxs .tel select {
   border-radius: 5px;
   margin-bottom: 50px;
 }
-main .inner .section01 .inner .apply__content .inputboxs .input__email {
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs .input__email {
   width: 72px;
   height: 35px;
   border-radius: 5px;
@@ -283,7 +284,7 @@ main .inner .section01 .inner .apply__content .inputboxs .input__email {
   margin-top: 15px;
   margin-bottom: 50px;
 }
-main .inner .section01 .inner .apply__content .inputboxs select {
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs select {
   width: 156px;
   height: 35px;
   border-radius: 5px;
@@ -292,48 +293,48 @@ main .inner .section01 .inner .apply__content .inputboxs select {
   margin-bottom: 50px;
   color: #fff;
 }
-main .inner .section01 .inner .apply__content .inputboxs .major {
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs .major {
   position: absolute;
   right: 55px;
   top: 110px;
 }
-main .inner .section01 .inner .apply__content .inputboxs .major p {
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs .major p {
   margin-bottom: 30px;
 }
-main .inner .section01 .inner .apply__content .inputboxs .major .input__major {
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs .major .input__major {
   margin-right: 10px;
 }
-main .inner .section01 .inner .apply__content .inputboxs .major .no {
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs .major .no {
   margin-left: 10px;
 }
-main .inner .section01 .inner .apply__content .inputboxs .purpose p {
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs .purpose p {
   margin-bottom: 30px;
 }
-main .inner .section01 .inner .apply__content .inputboxs .purpose #purpose {
+main .inner .section01 .inner .apply__wrap .apply__content .inputboxs .purpose #purpose {
   width: 575px;
   height: 139px;
   color: #fff;
   padding-left: 10px;
 }
-main .inner .section01 .inner .apply__content .confirm {
+main .inner .section01 .inner .apply__wrap .apply__content .confirm {
   background-color: #222;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
 }
-main .inner .section01 .inner .apply__content .confirm .checkbox {
+main .inner .section01 .inner .apply__wrap .apply__content .confirm .checkbox {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-main .inner .section01 .inner .apply__content .confirm .checkbox input {
+main .inner .section01 .inner .apply__wrap .apply__content .confirm .checkbox input {
   margin-right: 10px;
 }
-main .inner .section01 .inner .apply__content .confirm .checkbox p {
+main .inner .section01 .inner .apply__wrap .apply__content .confirm .checkbox p {
   font-size: 13px;
 }
-main .inner .section01 .inner .apply__content .confirm .confirm__button {
+main .inner .section01 .inner .apply__wrap .apply__content .confirm .confirm__button {
   width: 221px;
   height: 45px;
   background-color: #32a6ff;
